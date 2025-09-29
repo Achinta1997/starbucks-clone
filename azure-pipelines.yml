@@ -4,6 +4,8 @@ stages:
   - stage: deploy
     jobs:
       - deployment: starbucksDeploy
+        pool: 
+         name: vmpool
         environment:
          name: dev
         strategy: 
