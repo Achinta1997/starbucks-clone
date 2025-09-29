@@ -4,7 +4,8 @@ stages:
   - stage: deploy
     jobs:
       - deployment: starbucksDeploy
-        environment: dev
+        environment:
+         name: dev
         strategy: 
          runOnce:
            deploy:
