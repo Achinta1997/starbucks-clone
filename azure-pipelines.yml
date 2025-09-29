@@ -11,4 +11,4 @@ stages:
              steps:
              - task: CmdLine@2
                inputs:
-                 script: 'cp -r $(System.DefaultWorkingDirectory) /var/www/html'
+                 script: 'sudo cp -r $(System.DefaultWorkingDirectory)/ /var/www/html'
