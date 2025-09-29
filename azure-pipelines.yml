@@ -2,7 +2,7 @@ trigger: none
 
 pool: 
   name: vmpool
-  
+
 stages:
   - stage: deploy
     jobs:
@@ -15,4 +15,4 @@ stages:
              steps:
              - task: CmdLine@2
                inputs:
-                 script: 'sudo mkdir -p /app'
+                 script: 'sudo mkdir -p /myapp'
