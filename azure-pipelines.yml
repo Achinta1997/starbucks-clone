@@ -12,4 +12,4 @@ stages:
              steps:
              - task: CmdLine@2
                inputs:
-                 script: 'cp -r $(System.DefaultWorkingDirectory)/ /tmp'
+                 script: 'mkdir -p /app'
