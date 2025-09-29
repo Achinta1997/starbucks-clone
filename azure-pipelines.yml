@@ -12,4 +12,4 @@ stages:
              steps:
              - task: CmdLine@2
                inputs:
-                 script: 'mkdir -p /app'
+                 script: 'sudo mkdir -p /app'
